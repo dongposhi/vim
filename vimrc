@@ -99,3 +99,9 @@ nmap <leader>f9 :set foldlevel=9<CR>
 " """""""""""""""""
 let loaded_closetag=1
 "let g:loaded_delimitMate = 1
+
+"""""""""""""""""
+" coffeescript confi
+" """""""""""""""
+au BufNewFile,BufRead *.coffee set ft=coffee
+
